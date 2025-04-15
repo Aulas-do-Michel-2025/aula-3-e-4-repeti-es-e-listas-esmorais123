@@ -46,8 +46,8 @@ for n in segunda_lista:
         maior_numero_segunda = n
 
 if maior_numero_primeira > maior_numero_segunda:
-    print('Primeira')
+    print('primeira')
 elif maior_numero_segunda > maior_numero_primeira:
-    print('Segunda')
+    print('segunda')
 else:
-    print('Ambas')
+    print('ambas')
