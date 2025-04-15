@@ -35,4 +35,4 @@ while i < n:
     f *= n - i
     i = i + 1
 
-print(f'O fatorial de {n} é {f}')
+print(f)
