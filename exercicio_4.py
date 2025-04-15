@@ -41,24 +41,16 @@ lista_de_organismos = [[50, 50, 50], [125, 99, 12], [19, 91, 42], [40, 189, 0], 
 
 # Fazer a partir daqui
 medias = []
-somas = []
 
 for i in range(len(lista_de_organismos)):
     soma = 0
     for j in range(len(lista_de_organismos[i])):
         soma += lista_de_organismos[i][j]
-    somas.append(soma)
-
-#print(somas)
-
-for x in somas:
-    media = x / len(lista_de_organismos[i])
+    media = soma / len(lista_de_organismos[i])
     medias.append(media)
 
-#print(medias)
-
-for y in range(len(medias)):
-    if medias[y] == max(medias):
-        organismo_maior_media = y
+for x in range(len(medias)):
+    if medias[x] == max(medias):
+        organismo_maior_media = x
 
 print(organismo_maior_media)
