@@ -30,4 +30,4 @@ for i in range(len(lista)):
     if resto != 0:
         lista_impar.append(lista[i])
 
-print(f'Os números ímpares são {lista_impar}')
+print(lista_impar)
