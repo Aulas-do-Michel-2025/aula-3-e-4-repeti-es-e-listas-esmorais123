@@ -61,4 +61,4 @@ for y in range(len(medias)):
     if medias[y] == max(medias):
         organismo_maior_media = y
 
-print(f'O organismo com maior média é o da posição {organismo_maior_media} da lista.')
+print(organismo_maior_media)
