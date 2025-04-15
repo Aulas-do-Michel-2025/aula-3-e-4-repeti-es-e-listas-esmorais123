@@ -30,4 +30,4 @@ for i in range(len(lista)):
     if resto != 0:
         lista_impar.append(lista[i])
 
-print(lista_impar)
+print(*lista_impar, sep=', ')
